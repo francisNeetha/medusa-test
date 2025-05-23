@@ -24,3 +24,5 @@ build
 !.yarn/versions
 
 .medusa
+.scannerwork/.sonar_lock
+.scannerwork/report-task.txt

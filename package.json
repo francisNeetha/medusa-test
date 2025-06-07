@@ -12,7 +12,6 @@
     "headless",
     "medusa"
   ],
-   "type": "module",
   "scripts": {
     "lint": "eslint",
     "type-check": "tsc --noEmit",
@@ -35,7 +34,8 @@
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
     "awilix": "^8.0.1",
-    "pg": "^8.13.0"
+    "pg": "^8.13.0",
+    "typeorm": "^0.3.24"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.8.2",

@@ -15,7 +15,7 @@ const USER_ACCESS_RULES = {
             "/admin/collections",
             "/admin/categories"
         ], // All product-related endpoints
-        allowedMethods: ["GET", "POST", "PUT", "DELETE"],
+        allowedMethods: ["GET"],
         cssClass: "user-usera" // CSS class to add to body
     },
     // Add more users by their ID

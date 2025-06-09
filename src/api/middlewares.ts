@@ -14,14 +14,10 @@ const USER_ACCESS_RULES = {
             "/admin/products",
             "/admin/collections",
             "/admin/categories",
-            "/admin/product-tags",
-            "/admin/sales-channels",
-            "/admin/product-types",
-            "admin/price-preferences",
-            "/admin/product-options",
-            "/admin/api-keys",
-            "admin/shipping-profiles"
-        ], // All product-related endpoints
+           
+ 
+],
+        // All product-related endpoints
         allowedMethods: ["GET", "POST", "PUT", "DELETE"], // Allow all methods for these routes
         cssClass: "user-usera" // CSS class to add to body
     },
@@ -60,6 +56,8 @@ export default defineMiddlewares({
                         "/admin/payment-providers", // Basic store data
                         "/admin/fulfillment-providers", // Basic store data
                         "admmn/stock-locations", // Basic store data
+                         "admin/price-preferences",
+                         "/admin/users"
                     ];
                     
                     const requestPath = req.originalUrl.split('?')[0];

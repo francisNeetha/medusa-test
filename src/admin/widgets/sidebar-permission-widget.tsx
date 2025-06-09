@@ -609,8 +609,8 @@ const SidebarPermissionWidget = () => {
                 "/app/products/import", "/app/products/export" // Add specific routes
             ],
             orders: ["order", "orders"],
-            customers: ["customer", "customers"],
-            inventory: ["inventory", "stock"]
+            // customers: ["customer", "customers"],
+            // inventory: ["inventory", "stock"]
         };
  
         const navLinks = sidebar.querySelectorAll("a");
@@ -710,8 +710,8 @@ export const config = defineWidgetConfig({
         "inventory_item.list.before",
         "price_list.list.before",
         "product_variant.details.before",
-        "product_collection.list.before",
-        "product_category.list.before",
+        // "product_collection.list.before",
+        // "product_category.list.before",
         "promotion.list.before",
         "api_key.list.before",
         "location.list.before",
